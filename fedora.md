@@ -15,3 +15,7 @@ Change default kernel:
     sudo grubby --info=ALL | grep -E "^kernel|^index"
     # Set the new index
     sudo grubby --set-default-index=1
+
+## Release Upgrade
+
+    sudo dnf system-upgrade download --releasever=43
