@@ -19,6 +19,7 @@ Change default kernel:
 ## Release Upgrade
 
     sudo dnf system-upgrade download --releasever=43
+    sudo dnf5 offline reboot
 
 See https://docs.fedoraproject.org/en-US/quick-docs/upgrading-fedora-offline/
 
